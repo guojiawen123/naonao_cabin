@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>hexo+github搭建博客 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="环境配置搭建hexo首先需要有nodejs的环境，可以从官网直接下载。  生成博客安装1npm install hexo-cli -g # 全局安装hexo命令行工具  初始化1hexo init name # 目录名称不含空格的时候双引号可以省略  进入到博客目录 1cd &quot;博客目录&quot;  引入相关依赖 1npm install # 安装的依赖项在package.json文件的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo+github搭建博客">
+<meta property="og:url" content="https://github.github.io/naonao_cabin/2024/04/01/hexo+github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="环境配置搭建hexo首先需要有nodejs的环境，可以从官网直接下载。  生成博客安装1npm install hexo-cli -g # 全局安装hexo命令行工具  初始化1hexo init name # 目录名称不含空格的时候双引号可以省略  进入到博客目录 1cd &quot;博客目录&quot;  引入相关依赖 1npm install # 安装的依赖项在package.json文件的">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://s2.loli.net/2022/09/05/2xKvaPTDoyZcFbp.png">
+<meta property="article:published_time" content="2024-04-01T07:25:35.000Z">
+<meta property="article:modified_time" content="2024-04-02T02:27:04.275Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s2.loli.net/2022/09/05/2xKvaPTDoyZcFbp.png">
+  
+    <link rel="alternate" href="/naonao_cabin/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/naonao_cabin/favicon.png">
+  
+  
+  
+<link rel="stylesheet" href="/naonao_cabin/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/naonao_cabin/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<meta name="generator" content="Hexo 7.1.1"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/naonao_cabin/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/naonao_cabin/">Home</a>
+        
+          <a class="main-nav-link" href="/naonao_cabin/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/naonao_cabin/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://github.github.io/naonao_cabin"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-hexo+github搭建博客" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/naonao_cabin/2024/04/01/hexo+github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" class="article-date">
+  <time class="dt-published" datetime="2024-04-01T07:25:35.000Z" itemprop="datePublished">2024-04-01</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      hexo+github搭建博客
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h4 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h4><p>搭建hexo首先需要有<a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">nodejs</a>的环境，可以从官网直接下载。</p>
+<p><img src="https://s2.loli.net/2022/09/05/2xKvaPTDoyZcFbp.png" alt="img"></p>
+<h4 id="生成博客"><a href="#生成博客" class="headerlink" title="生成博客"></a>生成博客</h4><h5 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g <span class="comment"># 全局安装hexo命令行工具</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init name <span class="comment"># 目录名称不含空格的时候双引号可以省略</span></span><br></pre></td></tr></table></figure>
+
+<p>进入到博客目录</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> <span class="string">&quot;博客目录&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>引入相关依赖</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install <span class="comment"># 安装的依赖项在package.json文件的dependencies字段中可以看到</span></span><br></pre></td></tr></table></figure>
+
+<p>这里面可能会存在下载速度过慢的问题，可以考虑修改镜像源</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com</span><br></pre></td></tr></table></figure>
+
+<h5 id="生成新文章"><a href="#生成新文章" class="headerlink" title="生成新文章"></a>生成新文章</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new post <span class="string">&quot;test&quot;</span> <span class="comment"># 会在 source/_posts/ 目录下生成文件 ‘test.md’，打开编辑</span></span><br><span class="line">hexo generate        <span class="comment"># 生成静态HTML文件到 /public 文件夹中</span></span><br><span class="line">hexo server          <span class="comment"># 本地运行server服务预览，打开 http://localhost:4000 即可预览你的博客</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="上传github"><a href="#上传github" class="headerlink" title="上传github"></a>上传github</h4><h5 id="github创建新的仓库"><a href="#github创建新的仓库" class="headerlink" title="github创建新的仓库"></a>github创建新的仓库</h5><p>仓库的地址：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/guojiawen123/naonao_cabin.git</span><br></pre></td></tr></table></figure>
+
+<p>修改hexo项目中_config.yml配置</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span></span><br><span class="line">    <span class="attr">github:</span> <span class="string">https://github.com/guojiawen123/naonao_cabin.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="生成静态html文件并上传到github仓库"><a href="#生成静态html文件并上传到github仓库" class="headerlink" title="生成静态html文件并上传到github仓库"></a>生成静态html文件并上传到github仓库</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<p>若报告找不到git错误，则安装相关依赖</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<h5 id="应用GitHub-Pages"><a href="#应用GitHub-Pages" class="headerlink" title="应用GitHub Pages"></a>应用GitHub Pages</h5><p>若上传成功，则可以在github仓库中Settings中Pages中访问hexo项目，若正常显示，则博客搭建完成。</p>
+<p>可能存在css等文件加载不出来的问题，原因是生成的html文件中资源引入的路径存在问题，应在配置文件中修改：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://github.github.io/naonao_cabin</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line">  <span class="attr">trailing_index:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;index.html&#x27; from permalinks</span></span><br><span class="line">  <span class="attr">trailing_html:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;.html&#x27; from permalinks</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="更换不同主题【存在些许问题】"><a href="#更换不同主题【存在些许问题】" class="headerlink" title="更换不同主题【存在些许问题】"></a>更换不同主题【存在些许问题】</h4><p><a target="_blank" rel="noopener" href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
+<h5 id="更换Fan主题"><a href="#更换Fan主题" class="headerlink" title="更换Fan主题"></a>更换Fan主题</h5><p><a target="_blank" rel="noopener" href="https://github.com/fan-lv/Fan">https://github.com/fan-lv/Fan</a></p>
+<p>进入到hexo项目themes文件夹下克隆一个仓库</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/fan-lv/Fan.git themes/Fan</span><br></pre></td></tr></table></figure>
+
+<p>进入到Fan文件中，拉取项目</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> themes/Fan</span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>
+
+<p>在hexo项目配置文件中配置主题信息</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Extensions</span></span><br><span class="line"><span class="comment">## Plugins: https://hexo.io/plugins/</span></span><br><span class="line"><span class="attr">Themes:</span> <span class="string">https://hexo.io/themes/</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">Fan</span></span><br></pre></td></tr></table></figure>
+
+<p>然后清除生成文件，生成文件，部署文件就可以了。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://github.github.io/naonao_cabin/2024/04/01/hexo+github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" data-id="cluhrp88b0000awuh0upjcv88" data-title="hexo+github搭建博客" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/naonao_cabin/2024/04/02/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Hello World
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/naonao_cabin/archives/2024/04/">April 2024</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/naonao_cabin/2024/04/02/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/naonao_cabin/2024/04/01/hexo+github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">hexo+github搭建博客</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2024 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/naonao_cabin/" class="mobile-nav-link">Home</a>
+  
+    <a href="/naonao_cabin/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/naonao_cabin/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/naonao_cabin/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/naonao_cabin/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
